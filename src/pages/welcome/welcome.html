@@ -1,0 +1,47 @@
+<!--
+  Generated template for the WelcomePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+    <ion-navbar>
+        <ion-title>welcome</ion-title>
+    </ion-navbar>
+
+</ion-header>
+
+<ion-content padding id="welcome">
+    <!-- Slides-->
+    <ion-slides pager="true" autoplay="5000" loop="false" speed="500" class="slides">
+        <ion-slide>
+            <img src="../../assets/icon/cityscape.svg" />
+            <h1>Bienvenidos a Suba Emplea</h1>
+            <p>La app qué te ayuda a buscar trabajo, seas profesional o no.</p>
+        </ion-slide>
+        <ion-slide>
+            <img src=" ../../assets/icon/handshake.svg ">
+            <h3>Quieres emplear</h3>
+            <p>Puedes buscar personas con oficios varios para contratarlos o simplemente para que te brinden un servicio ¡Tú eliges!</p>
+        </ion-slide>
+        <ion-slide>
+            <img src="../../assets/icon/teacher.svg">
+            <h1>Certfica tu Talento</h1>
+            <p>Si no tienes certificado de tus habilidades, no te preocupes te ayudamos.</p>
+        </ion-slide>
+        <ion-slide>
+            <p>Registrate, completa el formulario de hoja de vida, y espera a ser contactado.</p>
+            <h2>¿Ya tienes una cuenta?</h2>
+            <button ion-button icon-left full color="success" (click)="goToLogin()">
+                <ion-icon name="log-in"></ion-icon>
+                Login
+            </button>
+            <button ion-button icon-left full color="primary" (click)="goToRegister()">
+                <ion-icon name="create"></ion-icon>
+                Registrarme
+            </button>
+        </ion-slide>
+    </ion-slides>
+
+</ion-content>

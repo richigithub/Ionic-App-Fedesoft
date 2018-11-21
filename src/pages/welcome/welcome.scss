@@ -1,0 +1,13 @@
+page-welcome {
+    #welcome {
+        background: color($colors, secondary);
+        h1 {
+            font-size: 30px;
+            margin-top: 40px;
+        }
+        p {
+            font-size: 20px;
+            margin-left: 9%;
+        }
+    }
+}
